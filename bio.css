@@ -1,0 +1,64 @@
+body{
+text-align: center;}
+#welcome{
+    background: linear-gradient(purple,blue,cyan);
+    z-index: 10;
+}
+#profile{
+     border-radius:50%;
+    border-style: dashed;
+        border-color:crimson;
+}
+p{
+    font-size: 25px;
+}
+#bio{
+    background: linear-gradient(lavender,lightblue,aqua)
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:8px auto;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 11;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: greenyellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: aliceblue;
+}
+html{
+scroll-behavior:smooth;}
+.article:hover{
+    color:darkred;
+    background-color: burlywood;
+}
+a{
+    text-decoration: underline;
+}
+.contact1 h3{
+    display:inline;
+}
+#contact{
+background:aliceblue;}
+#contact iframe{
+    width:100%;
+}
+.contact1 a{
+    text-shadow: 2px 2px lightgreen;
+}
